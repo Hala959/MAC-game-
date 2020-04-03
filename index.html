@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    
+<title>Meca sonic</title>
+<audio controls autoplay>  
+    <source src="./saw.mp3" id="audio" type="audio/mp3">  
+</audio> 
+</head>
+<body class="background">
+<section id= "page1">
+<div class="logo">
+ <p>MECA SONIC</p>
+</div>
+<div  class="page1">
+    <img src="img/2.png" />
+    <div class="frame">
+    <p >INSTRUCTIONS</p>
+    <hr class="line1">
+    <hr class="line2">
+    <p class="text">Type each word in the given amount of seconds to score. To play again, just type the current word. Your score will reset<p>
+    
+        <img id ="start" src="img/start.png" />
+    </div>
+</div>
+
+</section>
+<section id= "page2">
+    <div class="gameContainer">
+        <p >MECA SONIC</p>
+        <h2 class="rendom_text" id="current-word"></h2>
+        <div  class="lead">
+            Type The Given Word Within <span class="text-success" >5</span> Seconds:
+        </div>
+            <input class="word-input" type="text" id="word-input" name="">
+            <h3 class="gameOver"></h3>
+            <h3 class="Correct"></h3>
+            <div class="row-time-score">
+                <spen class="timeLeft">Time Left:<text></text></spen>
+                <spen class="score">Score:<text>0</text></spen>
+            </div>
+        </div>
+    </div>
+</section>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    
+</script>
+ 
+<script src="js/main.js"></script>
+</body>
+</html>
